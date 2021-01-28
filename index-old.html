@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block 1 Lecture 3</title>
+</head>
+<body>
+    <form> <!--form fields-->
+        <!--hidden fields are used to valid that the form is from the person you sent the page to-->
+        <input type="hidden" id="form-id" value="abcd"/>
+        <label for="my-text">Enter some text:</label>
+        <input type="text" name="some-text" id="my-text"/><br/> <!--/ might not be needed-->
+
+        Website: <input type="text" name="website"/><br/>
+
+        Computer: <input type="text" name="Computer"/><br/>
+
+       <label for="my-password">Password:</label>
+       <input type="password" name="password" id="my-password"/><br/>
+
+       <input type="radio" name = "gender" id="male" value="m"/>
+       <label for="male">Male</label>
+       <input type="radio" name = "gender" id="female" value="f"/>
+       <label for="female">Female</label><br/>
+     
+       <!--Using value-->
+
+       <input type="checkbox" name="season" value="spring">Spring<br/>
+       <input type="checkbox" name="season" value="summer">Summer<br/>
+       <input type="checkbox" name="season" value="fall">Fall<br/>
+       <input type="checkbox" name="season" value="winter">Winter<br/>
+
+
+       <label for="my-text-area">Enter some text:</label><br/>
+       <textarea name="my-big-text" id="my-text-area" rows="2">
+
+       </textarea>
+    <hr/>
+
+    <select name="select-food" multiple="multiple">
+        <option value="mex">Mexican</option>
+        <option value="chi">Chinese</option>
+        <option value="ita">Italian</option>
+        <option value="vit"> Vietnamese</option>
+        <option value="ind">Indian</option>
+
+    </select><br/>
+    <input type="submit"/>
+    <input type="reset"/>
+    
+    
+    
+    
+    
+    </form>
+</body>
+</html>
